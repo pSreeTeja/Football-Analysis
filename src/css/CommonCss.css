@@ -1,0 +1,23 @@
+.contentDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: green; */
+    height: 100%;
+}
+.pageHeadingTxt{
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 0px 3px 6px #00000029;
+    margin-left: 10px;
+}
+.bottomTopDiv{
+    display: flex;
+    align-items: center;
+    height: 15%;
+    /* background-color: red; */
+}
+.bottomBottomDiv{
+    height: 80%;
+    box-shadow : #D3F278;
+}

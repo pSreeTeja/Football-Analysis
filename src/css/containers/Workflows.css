@@ -1,0 +1,18 @@
+.workflowsImgsDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.workflowsImgsDiv div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.workflowImg{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding:10px;
+    border: radius 10px; ;
+    margin-bottom: 15px;
+    border-left: 15px solid #3f3f3f;
+}

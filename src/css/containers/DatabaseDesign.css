@@ -1,0 +1,12 @@
+.dbTxt{
+    font-size: 92px;
+}
+.dbHeadingDiv{
+    /* background-color: red; */
+}
+.dbImgDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}

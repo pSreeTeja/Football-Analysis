@@ -1,0 +1,44 @@
+.navbarMainDiv{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    box-sizing: border-box;
+    padding: 15px 0px;
+    border-bottom: 3px solid rgba(158, 158, 158, 0.171);
+    box-shadow:#000000;
+}
+#titleTxt{
+    font-family: "Oswald";
+    font-weight: bold;
+    font-size: 22px;
+    margin-left:5px;
+    letter-spacing: -0.86px;
+    color: #000000;
+    text-shadow: 0px 3px 6px #70707029;
+}
+.navbarLeftDiv,.navbarRightDiv{
+    display: flex;
+    align-items: center;
+}
+.navbarLeftDiv,.navbarRightDiv{
+    width: 50%;
+}
+.navbarRightDiv{
+    justify-content: space-between;
+}
+.navbarLink{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin-left: 20px;
+    font-size: 18px;
+    letter-spacing: -0.86px;
+    text-shadow: 0px 3px 6px #00000029;
+}
+
+.navbarLinkActive{
+    background-color: #FF6728;
+    color:white; 
+    font-weight: bold;  
+    padding:5px 15px;
+    box-shadow:0px 3px 2px #FF6728 ;
+}
