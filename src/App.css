@@ -6,12 +6,12 @@
   /* background-color: rgb(51, 51, 51); */
 }
 .websiteMainDiv{
-    width: 90%;
+    width: 100%;
     box-sizing: border-box;
-    padding:0px 10px;
     /* border:1px solid black; */
     /* background-color: #D3F278; */
 }
 .appBottomDiv{
   height: 90%;
+
 }

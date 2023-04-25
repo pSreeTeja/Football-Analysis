@@ -1,0 +1,29 @@
+.reportsBottomDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgCaption{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Chivo Mono";
+}
+.firstReportImg,.secondReportImg,.thirdReportImg{
+    box-shadow: #FF6728 -5px 5px 5px;
+    border-top:1px solid rgb(218, 218, 218);
+    border-right:1px solid rgb(218, 218, 218);
+    border-bottom:1px solid rgb(218, 218, 218);
+}
+.firstReportImg{
+    height: 300px;
+}
+.secondReportImg{
+    width: 300px;
+}
+.firstAndSecondImgDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+}

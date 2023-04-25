@@ -1,7 +1,7 @@
 import SchemaImg from "../media/schema.png"
 import "../css/containers/Schema.css"
 import "../css/CommonCss.css"
-import DependencyGraph from "../media/dependencyGraph.png"
+import DependencyGraph from "../media/dependencyGraph3.png"
 import { useEffect } from "react"
 function Schema(props) {
     useEffect(()=>{
@@ -14,7 +14,7 @@ function Schema(props) {
                 <span className="schemaTxt pageHeadingTxt">Schema</span>
             </div>
             <div className="schemaImgDiv bottomBottomDiv">
-                <img className="dgImg" src={DependencyGraph} alt="dependencyGraph" height={1200}/>
+                <img className="dgImg" src={DependencyGraph} alt="dependencyGraph" />
 
             </div>
         </div> 

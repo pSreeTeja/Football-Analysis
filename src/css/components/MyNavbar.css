@@ -3,12 +3,13 @@
     justify-content: space-between;
     height: 10%;
     box-sizing: border-box;
-    padding: 15px 0px;
+    padding: 15px 10px;
     border-bottom: 3px solid rgba(158, 158, 158, 0.171);
     box-shadow:#000000;
 }
 #titleTxt{
-    font-family: "Oswald";
+    font-family: "Orator Std";
+    margin-top: 5px;
     font-weight: bold;
     font-size: 22px;
     margin-left:5px;
@@ -28,11 +29,14 @@
 }
 .navbarLink{
     text-decoration: none;
-    color:rgb(0, 0, 0);
+    color:rgba(0, 0, 0, 0.831);
     margin-left: 20px;
-    font-size: 18px;
-    letter-spacing: -0.86px;
-    text-shadow: 0px 3px 6px #00000029;
+    font-family: "Archivo Black";
+    /* font-family: "Helvetica";
+    color: black; */
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    text-shadow: 0px 3px 6px #ffffff29;
 }
 
 .navbarLinkActive{
@@ -41,4 +45,30 @@
     font-weight: bold;  
     padding:5px 15px;
     box-shadow:0px 3px 2px #FF6728 ;
+}
+/* resposive */
+@media screen and (max-width: 1920px){
+    .navbarLeftDiv{
+        width:50%;
+    }
+    .navbarRightDiv{
+        width: 50%;
+    }
+    .navbarLink{
+        font-size: 20px;
+    }
+    #titleTxt{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 1536px){
+    .navbarLeftDiv,.navbarRightDiv{
+        width: 50%;
+    }
+    .navbarLink{
+        font-size: 16px;
+    }
+    #titleTxt{
+        font-size: 22px;
+    }
 }

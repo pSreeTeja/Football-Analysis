@@ -7,3 +7,13 @@
     padding-top: 20px;
     justify-content: center;
 }
+@media screen and (max-width: 1920px){
+    .dgImg{
+        height: 1500px;
+    }
+}
+@media screen and (max-width: 1536px){
+    .dgImg{
+        height: 1200px;
+    }
+}

@@ -39,7 +39,7 @@ function Mappings(props) {
 
     return (  
         <div className="mappingsMainDiv contentDiv">
-            <div>
+            <div className="bottomTopDiv">
                 <img src={MappingsImg} alt="dbImg" width={70}/>
                 <span className="mappingsTxt pageHeadingTxt">Mappings</span>
             </div>

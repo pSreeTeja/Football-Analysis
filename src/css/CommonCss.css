@@ -1,13 +1,14 @@
 .contentDiv{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     /* background-color: green; */
     height: 100%;
 }
 .pageHeadingTxt{
-    font-size: 100px;
-    font-weight: bold;
+    font-size: 70px;
+    /* font-weight: bold; */
+    font-family: "Archivo Black";
     text-shadow: 0px 3px 6px #00000029;
     margin-left: 10px;
 }
@@ -15,9 +16,12 @@
     display: flex;
     align-items: center;
     height: 15%;
-    /* background-color: red; */
+    padding:10px 15px;
+    font-family:"Oswald"
 }
 .bottomBottomDiv{
-    height: 80%;
+    height: 100%;
     box-shadow : #D3F278;
+    position: relative;
+    /* background-color: red; */
 }

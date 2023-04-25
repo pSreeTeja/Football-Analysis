@@ -10,18 +10,18 @@ function Workflows(props) {
     },[]) 
     return ( 
         <div className="workflowsMainDiv contentDiv">
-            <div>
+            <div className="bottomTopDiv">
                 <img src={WorkflowsImg} alt="workflowsImg" width={70}/>
                 <span className="workflowsTxt pageHeadingTxt">Workflows</span>
             </div>
             <div className="bottomBottomDiv workflowsImgsDiv">
                 <div>
-                    <img src={PlayerStatsImg} className="workflowImg"alt="playerStatsImg"/>
-                    <span>Player Statistics</span>
+                    <img src={PlayerStatsImg} height={350} width={500} className="workflowImg"alt="playerStatsImg"/>
+                    <span className="workflowName">Player Statistics</span>
                 </div>
                 <div>
-                    <img src={TeamStatsImg} className="workflowImg"alt="playerStatsImg"/>
-                    <span>Team Statistics</span>
+                    <img src={TeamStatsImg} height={350} width={500} className="workflowImg"alt="playerStatsImg"/>
+                    <span className="workflowName">Team Statistics</span>
                 </div>
             </div>
         </div> 

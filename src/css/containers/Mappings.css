@@ -7,8 +7,14 @@
 }
 .mappingImg{
     height: 350px;
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* border-radius: 10px; */
+    /* border:15px solid #FFB596; */
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+
+    box-shadow: #FF6728 -5px 5px 5px;
+    border-top:1px solid rgb(218, 218, 218);
+    border-right:1px solid rgb(218, 218, 218);
+    border-bottom:1px solid rgb(218, 218, 218);
 }
 .navigateIcons{
     position:absolute;
@@ -19,20 +25,37 @@
     color:rgb(67, 67, 67);
 }
 .leftIcon{
-    left:0px;
+    left:1em;
     font-size: 3rem;
 }
 .rightIcon{
-    right: 0px;
+    right: 1em;
     font-size: 3rem;
 }
 .imageAndDescDiv{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
 }
 .imageName{
+    font-family: "Chivo Mono";
     margin-top:25px;
     text-shadow: 0px 3px 6px #00000029;
+}
+@media screen and (max-width: 1920px){
+    .mappingImg{
+        height: 450px;
+    }
+    .imageName{
+        font-size:24px;
+    }
+}
+@media screen and (max-width: 1536px){
+    .mappingImg{
+        height: 350px;
+    }
+    .imageName{
+        font-size:18px;
+    }
 }
